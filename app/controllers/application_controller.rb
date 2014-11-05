@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def printHello
-  	render text: "Hello juan, this is how you print a string through the default
+  	render text: "Hello juan2, this is how you print a string through the default
   	 application controller!."
   end
 
